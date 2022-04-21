@@ -1,4 +1,6 @@
 import React, { FunctionComponent } from 'react';
+import { CloseIcon } from './Icons';
+
 export const App: FunctionComponent = () => {
 
   const [ showMenu, setShowMenu ] = React.useState(true);
