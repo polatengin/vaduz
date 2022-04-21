@@ -27,6 +27,14 @@ export const App: FunctionComponent = () => {
             <button className="py-4 bg-gray-200 rounded shadow">Two-Three digit mixed substractions</button>
           </div>
         }
+
+        { !showMenu && <div className="flex flex-col h-full">
+          <div className="flex">
+            <div className="flex-grow self-center">{currentScreen}</div>
+          </div>
+          <div className="h-full">
+          </div>
+        </div> }
       </div>
     </div>
   );
