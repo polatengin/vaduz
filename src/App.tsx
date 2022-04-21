@@ -28,6 +28,7 @@ export const App: FunctionComponent = () => {
           <div className="flex flex-col gap-4 mt-4">
             <button className="py-4 bg-gray-200 rounded shadow" onClick={() => gotoPage("Exercise: Multiplications")}>Multiplication exercises</button>
             <button className="py-4 bg-gray-200 rounded shadow" onClick={() => gotoPage("Exercise: Two Digit Additions")}>Two digit additions</button>
+            <button className="py-4 bg-gray-200 rounded shadow" onClick={() => gotoPage("Exercise: Three Digit Additions")}>Three digit additions</button>
             <button className="py-4 bg-gray-200 rounded shadow">Two-Three digit mixed additions</button>
             <button className="py-4 bg-gray-200 rounded shadow">Two digit substractions</button>
             <button className="py-4 bg-gray-200 rounded shadow">Three digit substractions</button>
