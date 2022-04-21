@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { CloseIcon } from './Icons';
 
+import { MultiplicationExercises } from './MultiplicationExercises';
 export const App: FunctionComponent = () => {
 
   const [ showMenu, setShowMenu ] = React.useState(true);
