@@ -46,6 +46,7 @@ export const App: FunctionComponent = () => {
           <div className="h-full">
             { currentScreen === "Exercise: Multiplications" && <MultiplicationExercises /> }
             { currentScreen === "Exercise: Two Digit Additions" && <TwoDigitAdditionsExercises /> }
+            { currentScreen === "Exercise: Three Digit Additions" && <ThreeDigitAdditionsExercises /> }
           </div>
         </div> }
       </div>
