@@ -4,6 +4,7 @@ import { CloseIcon } from './Icons';
 import { MultiplicationExercises } from './MultiplicationExercises';
 import { ThreeDigitAdditionsExercises } from './ThreeDigitAdditionsExercises';
 import { TwoDigitAdditionsExercises } from './TwoDigitAdditionsExercises';
+
 export const App: FunctionComponent = () => {
 
   const [ showMenu, setShowMenu ] = React.useState(true);
