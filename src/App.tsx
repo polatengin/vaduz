@@ -3,6 +3,11 @@ export const App: FunctionComponent = () => {
 
   const [ showMenu, setShowMenu ] = React.useState(true);
   const [ currentScreen, setCurrentScreen ] = React.useState<string>();
+  const hideMenu = () => {
+    setShowMenu(true);
+    setCurrentScreen(undefined);
+  };
+
   return (
     <div className="w-screen h-screen bg-gray-200 p-4">
       <div className="w-full h-full rounded-2xl shadow-2xl bg-white p-4">
