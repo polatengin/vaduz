@@ -33,6 +33,9 @@ export const App: FunctionComponent = () => {
         { !showMenu && <div className="flex flex-col h-full">
           <div className="flex">
             <div className="flex-grow self-center">{currentScreen}</div>
+            <div className="justify-end">
+              <CloseIcon onClick={() => hideMenu()} className="w-12 h-12 py-4 cursor-pointer" />
+            </div>
           </div>
           <div className="h-full">
           </div>
