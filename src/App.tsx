@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 export const App: FunctionComponent = () => {
 
+  const [ showMenu, setShowMenu ] = React.useState(true);
   return (
     <div className="w-screen h-screen bg-gray-200 p-4">
       <div className="w-full h-full rounded-2xl shadow-2xl bg-white p-4">
