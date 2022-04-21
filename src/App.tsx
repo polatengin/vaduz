@@ -40,6 +40,7 @@ export const App: FunctionComponent = () => {
             </div>
           </div>
           <div className="h-full">
+            { currentScreen === "Exercise: Multiplications" && <MultiplicationExercises /> }
           </div>
         </div> }
       </div>
