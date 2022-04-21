@@ -3,6 +3,12 @@ export const App: FunctionComponent = () => {
 
   const [ showMenu, setShowMenu ] = React.useState(true);
   const [ currentScreen, setCurrentScreen ] = React.useState<string>();
+
+  const gotoPage = (pageName: string) => {
+    setShowMenu(false);
+    setCurrentScreen(pageName);
+  };
+
   const hideMenu = () => {
     setShowMenu(true);
     setCurrentScreen(undefined);
